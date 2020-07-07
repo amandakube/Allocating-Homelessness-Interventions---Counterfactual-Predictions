@@ -14,5 +14,5 @@ The variable named Original represents the homeless service the household was as
 
 The variable named Outcome has two potential values, 1 or 0. A value of 1 indicates that the household was in need of more homeless services within 2 years after exiting the system. A value of 0 indicates no need for services within those 2 years (the ideal outcome). 
 
-The rows labeled ES, TH, RRH, and Prev give the counterfactual prediction for whether that household would need services again within 2 years if they had been allocated to that intervention. ES stands for Emergency Shelter, TH Transitional Housing, RRH Rapid Rehousing, and Prev stands for Homelessness Prevention.
+The rows labeled ES, TH, RRH, and Prev give the counterfactual prediction for whether that household would need services again within 2 years if they had been allocated to that intervention. ES stands for Emergency Shelter, TH Transitional Housing, RRH Rapid Rehousing, and Prev stands for Homelessness Prevention. Couterfactual predictions are calculated using BART, as described in detail in the paper referenced above.
 
